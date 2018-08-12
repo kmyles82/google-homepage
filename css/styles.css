@@ -6,6 +6,73 @@
     text-decoration: none;
 }
 
+nav{
+    width: 100%;
+    padding: 10px;
+    }
+
 ul li{
     display: inline
+}
+
+.pull-left{
+    float: left;
+    margin: 10px;
+}
+
+.pull-right{
+    float: right;
+    margin: 10px;
+}
+
+section{
+    clear: both;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 179px;
+}
+
+#logo{
+    display: block;
+    margin: 0 auto;
+    height: 89px;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    width: 575px;
+    height: 45px;
+    border: 1px solid #e3e3e3;
+    -webkit-box-shadow:  1px 3px #ddd;
+    box-shadow:  1px 3px #ddd;
+}
+
+#btn{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+button{
+    background: #eee;
+    letter-spacing: .5px;
+    padding: 10px;
+    border: none;
+    display: inline;
+    text-align: center;
+    margin: 5px;
+    margin-top: 0;
+}
+
+footer{
+    margin-top: 276px;
+    height: 50px;
+    background: #eee;
+    
 }
