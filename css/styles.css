@@ -30,6 +30,7 @@ section{
     width: 800px;
     margin: 0 auto;
     margin-top: 179px;
+    position: relative;
 }
 
 #logo{
@@ -48,6 +49,12 @@ input{
     border: 1px solid #e3e3e3;
     -webkit-box-shadow:  1px 3px #ddd;
     box-shadow:  1px 3px #ddd;
+}
+
+#mic{
+    position: absolute;
+    left: 650px;
+    top: 125px;
 }
 
 #btn{
