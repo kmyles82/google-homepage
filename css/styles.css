@@ -12,3 +12,8 @@ nav{
     background: #eee;
     width: 100%;
 }
+
+nav ul{
+    display: inline;
+}
+
