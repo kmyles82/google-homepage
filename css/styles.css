@@ -1,12 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: Futura, Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: #999;
-}
+
 
 nav{
     height: 50px;
@@ -15,4 +7,10 @@ nav{
     display: inline;
 }
 
+ul{
+    list-style: none;
+}
 
+ul li{
+    list-style: none;
+}
