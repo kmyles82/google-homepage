@@ -11,9 +11,10 @@ nav{
     height: 50px;
     background: #eee;
     width: 100%;
+    display: inline;
 }
 
 nav ul{
-    display: inline;
+    
 }
 
