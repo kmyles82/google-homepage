@@ -13,7 +13,7 @@
             }
             
             function capitalize(str){
-                return str.toLowerCase.charAt(0).toUpperCase;
+                return str.toLowerCase().charAt(0).toUpperCase() + str.slice(1);
             }
             
             function lastletter(str){
@@ -22,8 +22,8 @@
             
             console.log(add7(7))
             console.log(multilpy(7,2))
-            console.log(lastletter("kerry"))
-            console.log(lastletter("kERRY"))
+            console.log(capitalize("kerry"))
+            console.log(capitalize("kERRY"))
             console.log(lastletter("abcd"))
         </script>
     </head>
